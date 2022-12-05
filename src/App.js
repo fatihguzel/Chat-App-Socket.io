@@ -93,7 +93,7 @@ function App() {
           padding: "auto",
         }}
       >
-        <CardHeader>Header</CardHeader>
+        <CardHeader>{room}</CardHeader>
         <CardBody>
           <CardTitle tag="h5"></CardTitle>
           <CardText
