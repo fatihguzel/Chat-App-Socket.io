@@ -6,16 +6,19 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "bootstrap": "^5.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "reactstrap": "^9.1.5",
+    "socket.io-client": "^4.5.4",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node node_modules/react-scripts/scripts/start.js",
+    "build": "node node_modules/react-scripts/scripts/build.js",
+    "test": "node node_modules/react-scripts/scripts/test.js",
+    "eject": "node node_modules/react-scripts/scripts/eject.js"
   },
   "eslintConfig": {
     "extends": [
